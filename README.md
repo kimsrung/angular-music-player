@@ -1,14 +1,13 @@
-<h3>An angular js admin app.</h3>
+#AngularJs Music Player App
 
-Uses several charing libraries including : 
+##Overview
 
-Chartjs<br/>
-Flotcharts<br/>
-morris charts<br/>
-
-It is built using bootstrap with several custom features.
-
-Also included are grunt configurations for development testing and production deployment.
+A music player application is a simple AngularJs Project that using charing libraries such as:
+- AngularJS
+- HTML5
+- Angular Media Player
+- Bootstrap
+- Ui-Router
 
 <h4>Install using grunt : </h4>
 
