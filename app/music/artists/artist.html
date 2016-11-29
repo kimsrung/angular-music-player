@@ -1,22 +1,21 @@
-<div data-ng-controller="ArtistCtrl as artist">
-
-  <div class="artist-banner" data-ng-show="artistBanner" style="background-image:url({{artistBanner}});">
+<div>
+  <div class="artist-banner" ng-show="artist.artistBanner" style="background-image:url({{artist.artistBanner}});">
     <div class="artist-inner">
 
-      <div class="artist-img" data-ng-show="artistImage">
-        <img ng-src="{{artistImage}}" class="img-circle img-polaroid"/>
+      <div class="artist-img" ng-show="artist.artistImage">
+        <img ng-src="{{artist.artistImage}}" class="img-circle img-polaroid"/>
       </div>
 
       <h3>
-        {{artistName}}
+        {{artist.artistName}}
       </h3>
 
       <h5>
-        {{artistAbout}}
+        {{artist.artistAbout}}
       </h5>
 
       <div class="artist-style">
-        <div class="artist-genre" ng-repeat="genre in artistGenre">
+        <div class="artist-genre" ng-repeat="genre in artist.artistGenre">
           <span>{{genre}}</span>
         </div>
       </div>
@@ -37,7 +36,7 @@
     </div>
 
     <div class="artist-stats-block pull-right">
-      <button class="btn {{artist.following_class}}" data-ng-click="artist.follow()">{{artist.following}}</button>
+      <button class="btn {{artist.following_class}}" ng-click="artist.follow()">{{artist.following}}</button>
     </div>
 
   </div>
@@ -80,12 +79,12 @@
                 </div>
 
                 <div class="music-listing__switch">
-                  <a class="btn btn-switch" href="javascript:;" data-ng-click="artist.toggleAlbumsList();" tooltip-placement="bottom" tooltip="View Albums" tooltip-append-to-body="true">
+                  <a class="btn btn-switch" href="javascript:;" ng-click="artist.toggleAlbumsList();" tooltip-placement="bottom" tooltip="View Albums" tooltip-append-to-body="true">
                     <i class="fa fa-list">
 
                     </i>
                   </a>
-                  <a class="btn btn-switch" href="javascript:;" data-ng-click="artist.toggleFullList();" tooltip-placement="bottom" tooltip="View all songs" tooltip-append-to-body="true">
+                  <a class="btn btn-switch" href="javascript:;" ng-click="artist.toggleFullList();" tooltip-placement="bottom" tooltip="View all songs" tooltip-append-to-body="true">
                     <i class="fa fa-sliders">
 
                     </i>
@@ -94,9 +93,9 @@
 
               </div>
 
-              <div class="music-listing__songs albumlist" data-ng-show="artist.AlbumList">
+              <div class="music-listing__songs albumlist" ng-show="artist.AlbumList">
 
-                <div class="album-wrapper" ng-repeat="album in artistPlaylistAlbums | filter:searchText">
+                <div class="album-wrapper" ng-repeat="album in artist.artistPlaylistAlbums | filter:searchText">
 
                   <div class="album_image">
                     <img ng-src="{{album.album_image}}" alt="album image"/>
@@ -132,11 +131,11 @@
                         </a>
 
                         <ul class="dropdown-menu" role="menu">
-                          <li><a href="javascript:;" data-ng-click="generalPlaylist.createNewPlaylist(song)">New Playlist</a></li>
+                          <li><a href="javascript:;" ng-click="generalPlaylist.createNewPlaylist(song)">New Playlist</a></li>
                           <li class="divider"></li>
 
                           <li id="user-menu" class="nav-item" ng-repeat="playlist_list in generalPlaylist.userPlaylists track by $index">
-                            <a href="javascript:;" data-ng-click="artist.addSongToPlaylist(song,playlist_list.name)">
+                            <a href="javascript:;" ng-click="artist.addSongToPlaylist(song,playlist_list.name)">
                               {{playlist_list.name}}
                             </a>
                           </li>
@@ -168,8 +167,8 @@
 
               </div>
 
-              <div class="music-listing__songs fulllist" data-ng-show="artist.FullList">
-                <div class="music-listing__row full-songs-wrapper" ng-repeat="song in artistPlaylist | filter:searchText">
+              <div class="music-listing__songs fulllist" ng-show="artist.FullList">
+                <div class="music-listing__row full-songs-wrapper" ng-repeat="song in artist.artistPlaylist | filter:searchText">
 
                   <div class="music-listing__number">
                     {{ $index+1 }}
@@ -186,11 +185,11 @@
                       </a>
 
                       <ul class="dropdown-menu" role="menu">
-                        <li><a href="javascript:;" data-ng-click="generalPlaylist.createNewPlaylist(song)">New Playlist</a></li>
+                        <li><a href="javascript:;" ng-click="generalPlaylist.createNewPlaylist(song)">New Playlist</a></li>
                         <li class="divider"></li>
 
                         <li id="user-menu" class="nav-item" ng-repeat="playlist_list in generalPlaylist.userPlaylists track by $index">
-                          <a href="javascript:;" data-ng-click="artist.addSongToPlaylist(song,playlist_list.name)">
+                          <a href="javascript:;" ng-click="artist.addSongToPlaylist(song,playlist_list.name)">
                             {{playlist_list.name}}
                           </a>
                         </li>

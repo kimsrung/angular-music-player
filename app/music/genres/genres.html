@@ -1,4 +1,4 @@
-<div class="page page-list" data-ng-controller="GenresCtrl as genres">
+<div class="page page-list">
 
   <div class="row">
 
@@ -9,11 +9,11 @@
 
         <div class="row music-genres-listing">
 
-          <div data-ng-repeat="genre in GenresSrv.genres" class="col-md-3">
+          <div data-ng-repeat="genre in genres.data" class="col-md-3">
 
             <div class="list-item__wrap">
 
-              <a href="#/artist/{{genre.url_name}}">
+              <a ui-sref="layout.artist({title: genre.url_name})">
                 <div class="list-item__image">
                   <img ng-src="{{genre.image}}" alt="genre image"/>
                   <div class="list-item__name">

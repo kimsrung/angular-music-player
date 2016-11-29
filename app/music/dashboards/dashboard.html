@@ -16,7 +16,7 @@
             playlist to share with your friends
           </h5>
 
-          <a class="btn btn-primary" href="#/artist-list">
+          <a class="btn btn-primary" ui-sref="layout.artists">
             Start searching
           </a>
 
@@ -36,14 +36,14 @@
                 <div data-ng-controller="ArtistListingCtrl as artistListing">
                   <div class="row music-covers-listing minified">
 
-                    <div data-ng-repeat="artistItem in ArtistsSrv.artists" class="col-md-3">
+                    <div data-ng-repeat="artistItem in artistListing.data" class="col-md-3">
 
                       <div class="list-item__wrap">
 
                         <div class="list-item__image">
                           <img ng-src="{{artistItem.image}}"/>
                           <div class="list-item__play">
-                            <a class="list-item__play-button" ng-href="#/artist/{{artistItem.url_name}}">
+                            <a class="list-item__play-button" ui-sref="layout.artist({title: artistItem.url_name})">
                               <i class="fa fa-2x fa-stumbleupon">
 
                               </i>
@@ -78,14 +78,14 @@
                 <div data-ng-controller="AlbumsCtrl as albums">
                   <div class="row music-covers-listing minified">
 
-                    <div data-ng-repeat="album in AlbumsSrv.albums" class="col-md-3">
+                    <div data-ng-repeat="album in albums.data" class="col-md-3">
 
                       <div class="list-item__wrap">
 
                         <div class="list-item__image">
                           <img ng-src="{{album.image}}"/>
                           <div class="list-item__play">
-                            <a class="list-item__play-button" ng-href="#/artist/{{album.url_name}}">
+                            <a class="list-item__play-button" ui-sref="layout.artist({title: album.url_name})">
                               <i class="fa fa-2x fa-stumbleupon">
 
                               </i>
@@ -124,11 +124,11 @@
 
                   <div class="row music-genres-listing">
 
-                    <div data-ng-repeat="genre in GenresSrv.genres" class="col-md-3">
+                    <div data-ng-repeat="genre in genres.data" class="col-md-3">
 
                       <div class="list-item__wrap">
 
-                        <a href="#/artist/{{genre.url_name}}">
+                        <a ui-sref="layout.artist({title: genre.url_name})">
                           <div class="list-item__image">
                             <img ng-src="{{genre.image}}" alt="genre image"/>
                             <div class="list-item__name">
@@ -169,7 +169,7 @@
         </section>
       </section>
 
-      <section>
+      <!-- <section>
 
         <section class="panel panel-default panel-default-clean">
 
@@ -346,7 +346,7 @@
 
         </section>
 
-      </section>
+      </section> -->
 
     </div>
 
@@ -536,4 +536,3 @@
   </aside>
 
 </div>
-  

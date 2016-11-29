@@ -667,6 +667,15 @@ angular.module('app.music', ['mediaPlayer','ngDragDrop'])
         }
       };
 
+      this.seekPercentage = function ($event) {
+        var percentage = ($event.offsetX / $event.target.offsetWidth);
+        if (percentage <= 1) {
+          return percentage;
+        } else {
+          return 0;
+        }
+      };
+
       this.createNewPlaylist = function(song){
 
         CreateNewPlaylistSrv.openCreateModal(song);

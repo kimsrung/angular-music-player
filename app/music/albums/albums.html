@@ -1,4 +1,4 @@
-<div class="page page-list" data-ng-controller="AlbumsCtrl as albums">
+<div class="page page-list">
 
   <div class="row">
 
@@ -21,14 +21,14 @@
 
         <div class="row music-covers-listing">
 
-          <div data-ng-repeat="album in AlbumsSrv.albums" class="col-md-3">
+          <div ng-repeat="album in albums.data" class="col-md-3">
 
             <div class="list-item__wrap">
 
               <div class="list-item__image">
                 <img ng-src="{{album.image}}"/>
                 <div class="list-item__play">
-                  <a class="list-item__play-button" ng-href="#/artist/{{album.url_name}}">
+                  <a class="list-item__play-button" ui-sref="layout.artist({title: album.url_name})">
                     <i class="fa fa-2x fa-stumbleupon">
 
                     </i>
