@@ -55,7 +55,7 @@
               <div class="music-listing__header">
 
                 <div class="music-listing__actions-top">
-                  <button ng-click="artist.addSongsAndPlay(generalPlaylist.audioPlaylist,mediaPlayer)" class="btn btn-primary"><i class="fa fa-headphones"></i>&nbsp;&nbsp;Play all</button>
+                  <button play-all="artist.artistPlaylist" class="btn btn-primary"><i class="fa fa-headphones"></i>&nbsp;&nbsp;Play all</button>
                   <!--<button ng-click="artist.addSongs(generalPlaylist.audioPlaylist)" class="btn btn-default"><i class="fa fa-plus"></i>&nbsp;&nbsp;Add</button>-->
 
                   <div class="btn-group">
@@ -64,7 +64,7 @@
                     </button>
 
                     <ul class="dropdown-menu" role="menu">
-                      <li><a ng-click="artist.addSongs(generalPlaylist.audioPlaylist)" href="javascript:;">Add to Queue</a></li>
+                      <li><a music-player="play" add-song="song" href="javascript:;">Add to Queue</a></li>
                       <li><a href="#">Another action</a></li>
                       <li><a href="#">Something else here</a></li>
                       <li class="divider"></li>
@@ -118,7 +118,7 @@
 
                     <div class="music-listing__number">
                       {{ $index+1 }}
-                      <div class="play-button" music-player="play" add-song="song" >
+                      <div class="play-button" music-player="play" add-song="song">
                         <button class="btn btn-primary"><i class="fa fa-play-circle"></i></button>
                       </div>
 
@@ -180,7 +180,7 @@
                   <div class="music-listing__number">
                     {{ $index+1 }}
                     <div class="play-button">
-                      <button ng-click="generalPlaylist.addSong(song)" class="btn btn-primary"><i class="fa fa-play-circle"></i></button>
+                      <button music-player="play" add-song="song" class="btn btn-primary"><i class="fa fa-play-circle"></i></button>
                     </div>
                   </div>
 

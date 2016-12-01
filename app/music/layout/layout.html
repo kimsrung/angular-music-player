@@ -1,6 +1,4 @@
 <div>
-  <!-- <audio media-player="mediaPlayer" playlist="generalPlaylist.audioPlaylist"></audio> -->
-
   <sound-manager></sound-manager>
 
   <div ng-hide="generalPlaylist.checkIfOwnPage()" ng-cloak="" class="no-print">
@@ -23,42 +21,33 @@
         <div class="player-control-bottom">
 
           <div class="controlling-options">
-            <div class="btn" ng-click="mediaPlayer.prev()">
+            <div class="btn" prev-track>
               <i class="fa fa-step-backward"></i>
             </div>
             <div class="btn">
               <i class="fa fa-pause" ng-show="isPlaying" pause-music></i>
               <i class="fa fa-play" ng-hide="isPlaying" play-music></i>
             </div>
-            <div class="btn" ng-click="mediaPlayer.next()">
+            <div class="btn" next-track>
               <i class="fa fa-step-forward"></i>
             </div>
-            <!--<div class="btn btn-noclick">
-              <span>currentTrack: <span class="badge">{{ mediaPlayer.currentTrack }}</span></span>
-            </div>-->
-            <!--<div class="btn btn-noclick">
-              <span><i class="fa fa-clock-o"></i>: <span class="badge">{{ mediaPlayer.formatTime }}</span></span>
-            </div>-->
             <div class="btn btn-noclick">
-              <span><span class="badge">{{ mediaPlayer.volume * 100 | number:0 }}%</span></span>
+              <span><span class="badge">{{ volume }}%</span></span>
             </div>
-            <div class="btn" ng-click="mediaPlayer.setVolume(mediaPlayer.volume - 0.1)">
+            <div class="btn" music-volume data-type="decrease">
               <span><i class="fa fa-volume-down"></i></span>
             </div>
-            <div class="btn" ng-click="mediaPlayer.setVolume(mediaPlayer.volume + 0.1)">
+            <div class="btn" music-volume data-type="increase">
               <span><i class="fa fa-volume-up"></i></span>
             </div>
           </div>
 
           <div class="song-duration">
-            <span class="song-duration-beg">{{ mediaPlayer.formatTime }}</span>
-            <!-- <div>
-      {{ currentPlaying.title }} by {{ currentPlaying.artist }} ({{ currentPostion }} / {{ currentDuration }})
-    </div> -->
+            <span class="song-duration-beg">{{ currentPostion }}</span>
             <div class="progress" seek-track>
               <div class="progress-bar" ng-style="{width : ( progress + '%' ) }"></div>
             </div>
-            <span class="song-duration-end">{{ mediaPlayer.formatDuration }}</span>
+            <span class="song-duration-end">{{ currentDuration }}</span>
           </div>
 
         </div>

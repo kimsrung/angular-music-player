@@ -33,6 +33,7 @@
           _.map(response.songs, function (song) {
             var parseTitle = song.displayName.match(/(.*?)\s?-\s?(.*)?$/);
             UserPlaylistVar.push({
+              id: song.id,
               image: song.image,
               src: song.url,
               url: song.url,

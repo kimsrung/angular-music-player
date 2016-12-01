@@ -83,7 +83,6 @@
           vm.artistPlaylist = artistPlaylistVar;
           vm.artistPlaylistAlbums = artistPlaylistAlbums;
         }
-
       });
     }
 

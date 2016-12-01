@@ -22,15 +22,13 @@
       image: 'dist/images/songs/song10.jpg',
       genre: [],
       songs: [
-        {image: 'dist/images/songs/song1.jpg', url: 'http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3', displayName: 'Beatles - Come Together', type: "audio/mpeg" },
-        {image: 'dist/images/songs/song2.jpg', url: 'http://ccmixter.org/content/admiralbob77/admiralbob77_-_The_Remixin_Blues_2.mp3', displayName: 'Beatles - Drive my car', type: "audio/mpeg"  },
-        {image: 'dist/images/songs/song3.jpg', url: 'http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3', displayName: 'Beatles - Loser', type: "audio/mpeg"  },
-        {image: 'dist/images/songs/song4.jpg', url: 'http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3', displayName: 'Beatles - All my loving', type: "audio/mpeg"  },
-        {image: 'dist/images/songs/song5.jpg', url: 'http://ccmixter.org/content/admiralbob77/admiralbob77_-_The_Remixin_Blues_2.mp3', displayName: 'Beatles - Taxman', type: "audio/mpeg"  },
-        {image: 'dist/images/songs/song6.jpg', url: 'http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3', displayName: 'Beatles - Come Together', type: "audio/mpeg"  },
-        {image: 'dist/images/songs/song7.jpg', url: 'http://ccmixter.org/content/admiralbob77/admiralbob77_-_The_Remixin_Blues_2.mp3', displayName: 'Beatles - Drive my car', type: "audio/mpeg"  },
-        {image: 'dist/images/songs/song8.jpg', url: 'http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3', displayName: 'Beatles - Loser', type: "audio/mpeg"  },
-        {image: 'dist/images/songs/song9.jpg', url: 'http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3', displayName: 'Beatles - All my loving', type: "audio/mpeg"  }
+        {"id": "7","image": "dist/images/songs/song20.jpg", "url": "http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3", "displayName": "La fiesta negra - Laetha", "type": "audio/mpeg" },
+        {"id": "8","image": "dist/images/songs/song19.jpg", "url": "http://ccmixter.org/content/admiralbob77/admiralbob77_-_The_Remixin_Blues_2.mp3", "displayName": "La fiesta negra - Only if", "type": "audio/mpeg" },
+        {"id": "9","image": "dist/images/songs/song18.jpg", "url": "http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3", "displayName": "La fiesta negra - Trains over fall", "type": "audio/mpeg" },
+        {"id": "10","image": "dist/images/songs/song17.jpg", "url": "http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3", "displayName": "La fiesta negra - Nothing else", "type": "audio/mpeg" },
+        {"id": "11","image": "dist/images/songs/song16.jpg", "url": "http://ccmixter.org/content/admiralbob77/admiralbob77_-_The_Remixin_Blues_2.mp3", "displayName": "La fiesta negra - Tonight we are", "type": "audio/mpeg" },
+        {"id": "12","image": "dist/images/songs/song15.jpg", "url": "http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3", "displayName": "La fiesta negra - In the night", "type": "audio/mpeg" },
+        {"id": "13","image": "dist/images/songs/song14.jpg", "url": "http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3", "displayName": "La fiesta negra - Nothing else", "type": "audio/mpeg" }
       ]
     };
 
@@ -41,12 +39,12 @@
       image: 'dist/images/songs/song11.jpg',
       genre: ['New age','Celtic','World'],
       songs: [
-        {image: 'dist/images/songs/song12.jpg', url: 'http://ccmixter.org/content/admiralbob77/admiralbob77_-_The_Remixin_Blues_2.mp3', displayName: 'Enya - Laetha', type: "audio/mpeg"  },
-        {image: 'dist/images/songs/song13.jpg', url: 'http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3', displayName: 'Enya - Only if', type: "audio/mpeg"  },
-        {image: 'dist/images/songs/song14.jpg', url: 'http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3', displayName: 'Enya - Trains and winter rains', type: "audio/mpeg" },
-        {image: 'dist/images/songs/song15.jpg', url: 'http://ccmixter.org/content/admiralbob77/admiralbob77_-_The_Remixin_Blues_2.mp3', displayName: 'Beatles - Drive my car', type: "audio/mpeg"  },
-        {image: 'dist/images/songs/song16.jpg', url: 'http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3', displayName: 'Beatles - Loser', type: "audio/mpeg"  },
-        {image: 'dist/images/songs/song17.jpg', url: 'http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3', displayName: 'Beatles - All my loving', type: "audio/mpeg"  }
+        {"id": "1", "image": "dist/images/songs/song1.jpg", "url": "http://www.schillmania.com/projects/soundmanager2/demo/_mp3/rain.mp3", "displayName": "The lunatics - Come Together", "type": "audio/mpeg" },
+        {"id": "2", "image": "dist/images/songs/song2.jpg", "url": "http://ccmixter.org/content/admiralbob77/admiralbob77_-_The_Remixin_Blues_2.mp3", "displayName": "The lunatics - Drive my car", "type": "audio/mpeg" },
+        {"id": "3", "image": "dist/images/songs/song3.jpg", "url": "http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3", "displayName": "The lunatics - Loser", "type": "audio/mpeg" },
+        {"id": "4", "image": "dist/images/songs/song4.jpg", "url": "http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3", "displayName": "The lunatics - All my loving", "type": "audio/mpeg" },
+        {"id": "5", "image": "dist/images/songs/song5.jpg", "url": "http://ccmixter.org/content/admiralbob77/admiralbob77_-_The_Remixin_Blues_2.mp3", "displayName": "The lunatics - Taxman", "type": "audio/mpeg" },
+        {"id": "6", "image": "dist/images/songs/song6.jpg", "url": "http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3", "displayName": "The lunatics - Tonight we do", "type": "audio/mpeg" }
       ]
     };
 

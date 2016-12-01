@@ -25,7 +25,7 @@
 
       <a class="btn main-nav-link queue" ng-class="{active:navigation.navigationState.playlist}" data-nav-section="queue" data-ng-click="navigation.SwitchToPlaylist()">
         <span class="label queue-label">
-            <span>QUEUE</span><span class="songs" ng-show="mediaPlayer.tracks > 0"> <span class="badge badge-primary">{{mediaPlayer.tracks}}</span></span>
+            <span>QUEUE</span><span class="songs" ng-show="playlist.length > 0"> <span class="badge badge-primary">{{playlist.length}}</span></span>
         </span>
       </a>
 
@@ -33,7 +33,7 @@
 
   </div>
 
-  <div class="sidebar-nav-main navigation-menu-container" data-slim-scroll data-ng-class="{minified:mediaPlayer.currentTrack}">
+  <div class="sidebar-nav-main navigation-menu-container" data-slim-scroll data-ng-class="{minified: currentPlaying}">
 
     <div class="menu-navigation-menus" ng-show="navigation.navigationState.menu">
 
@@ -255,28 +255,28 @@
 
       <div class="music-listing__songs">
 
-        <div class="music-listing__row" ng-repeat="song in generalPlaylist.audioPlaylist" ng-class="{ active: mediaPlayer.playing && mediaPlayer.currentTrack-1 === $index }"
-             ui-draggable="true" drag="song" on-drop-success="generalPlaylist.removeSong($index)" ui-on-drop="generalPlaylist.dropSong($data, $index)">
+        <div class="music-listing__row" ng-repeat="song in playlist" ng-class="{ active: isPlaying && currentPlaying.id === song.id }"
+             ui-draggable="true" drag="song" ui-on-drop="generalPlaylist.dropSong($data, $index)">
 
           <div class="music-listing__number">
             {{ $index+1 }}
           </div>
 
           <div class="music-listing__row-actions">
-            <i class="fa fa-times action" ng-click="generalPlaylist.removeSong($index)" title="Remove song"></i>
+            <i class="fa fa-times action" remove-from-playlist="song" data-index="{$index}" title="Remove song"></i>
             <i class="fa fa-list action" title="More Options..."></i>
           </div>
 
-          <div class="music-listing__name">
+          <div class="music-listing__name" play-from-playlist="song">
 
-            <div class="music-listing__thumbnail" ng-click="mediaPlayer.playPause($index)">
+            <div class="music-listing__thumbnail">
               <img ng-src="{{song.image}}" alt="song__image"/>
             </div>
 
-            <div class="music-listing__artist-name" ng-click="mediaPlayer.playPause($index)">
+            <div class="music-listing__artist-name">
               {{ song.artist }}
             </div>
-            <div class="music-listing__song-name" ng-click="mediaPlayer.playPause($index)">
+            <div class="music-listing__song-name">
               {{ song.title }}
             </div>
 
@@ -284,7 +284,7 @@
 
         </div>
 
-        <div class="empty-listing" ng-hide="generalPlaylist.audioPlaylist.length">
+        <div class="empty-listing" ng-hide="playlist.length">
 
           <div class="empty-listing-icon">
             <i class="musicicon-dj4">
@@ -307,11 +307,11 @@
 
   </div>
 
-  <div class="player-image-region" ng-show="mediaPlayer.currentTrack" style="background:url({{generalPlaylist.getSongImage(mediaPlayer.currentTrack)}}) no-repeat;">
+  <div class="player-image-region" ng-if="currentPlaying" style="background: url({{currentPlaying.image}}) no-repeat;">
     <div class="song-info">
       <div class="song-info__text">
-        <div class="song-info__title">{{generalPlaylist.getSongArtist(mediaPlayer.currentTrack)}}</div>
-        <div>{{generalPlaylist.getSongName(mediaPlayer.currentTrack)}}</div>
+        <div class="song-info__title">{{currentPlaying.artist}}</div>
+        <div>{{currentPlaying.title}}</div>
       </div>
     </div>
   </div>

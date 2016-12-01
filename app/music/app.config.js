@@ -40,7 +40,7 @@ function config($urlRouterProvider, $stateProvider, $locationProvider) {
     $stateProvider
     .state('layout', {
       templateUrl: 'app/music/layout/layout.html',
-      controller: 'PlayListCtrl',
+      controller: 'LayoutCtrl',
       controllerAs: 'generalPlaylist'
     });
 }
