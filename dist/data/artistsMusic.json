@@ -25,13 +25,13 @@
         "album_image":"dist/images/albums/album2.jpg",
         "album_release":"April 2003",
         "songs": [
-          {"id": "1","image": "dist/images/songs/song20.jpg", "url": "http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3", "displayName": "La fiesta negra - Laetha", "type": "audio/mpeg" },
-          {"id": "2","image": "dist/images/songs/song19.jpg", "url": "http://ccmixter.org/content/admiralbob77/admiralbob77_-_The_Remixin_Blues_2.mp3", "displayName": "La fiesta negra - Only if", "type": "audio/mpeg" },
-          {"id": "3","image": "dist/images/songs/song18.jpg", "url": "http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3", "displayName": "La fiesta negra - Trains over fall", "type": "audio/mpeg" },
-          {"id": "4","image": "dist/images/songs/song17.jpg", "url": "http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3", "displayName": "La fiesta negra - Nothing else", "type": "audio/mpeg" },
-          {"id": "5","image": "dist/images/songs/song16.jpg", "url": "http://ccmixter.org/content/admiralbob77/admiralbob77_-_The_Remixin_Blues_2.mp3", "displayName": "La fiesta negra - Tonight we are", "type": "audio/mpeg" },
-          {"id": "6","image": "dist/images/songs/song15.jpg", "url": "http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3", "displayName": "La fiesta negra - In the night", "type": "audio/mpeg" },
-          {"id": "7","image": "dist/images/songs/song14.jpg", "url": "http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3", "displayName": "La fiesta negra - Nothing else", "type": "audio/mpeg" }
+          {"id": "7","image": "dist/images/songs/song20.jpg", "url": "http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3", "displayName": "La fiesta negra - Laetha", "type": "audio/mpeg" },
+          {"id": "8","image": "dist/images/songs/song19.jpg", "url": "http://ccmixter.org/content/admiralbob77/admiralbob77_-_The_Remixin_Blues_2.mp3", "displayName": "La fiesta negra - Only if", "type": "audio/mpeg" },
+          {"id": "9","image": "dist/images/songs/song18.jpg", "url": "http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3", "displayName": "La fiesta negra - Trains over fall", "type": "audio/mpeg" },
+          {"id": "10","image": "dist/images/songs/song17.jpg", "url": "http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3", "displayName": "La fiesta negra - Nothing else", "type": "audio/mpeg" },
+          {"id": "11","image": "dist/images/songs/song16.jpg", "url": "http://ccmixter.org/content/admiralbob77/admiralbob77_-_The_Remixin_Blues_2.mp3", "displayName": "La fiesta negra - Tonight we are", "type": "audio/mpeg" },
+          {"id": "12","image": "dist/images/songs/song15.jpg", "url": "http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3", "displayName": "La fiesta negra - In the night", "type": "audio/mpeg" },
+          {"id": "13","image": "dist/images/songs/song14.jpg", "url": "http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3", "displayName": "La fiesta negra - Nothing else", "type": "audio/mpeg" }
         ]
       }
     ]
@@ -49,13 +49,13 @@
         "album_image":"dist/images/albums/album3.jpg",
         "album_release":"May 2010",
         "songs": [
-          {"id": "1","image": "dist/images/songs/song1.jpg", "url": "http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3", "displayName": "The lunatics - Come Together", "type": "audio/mpeg" },
-          {"id": "2","image": "dist/images/songs/song2.jpg", "url": "http://ccmixter.org/content/admiralbob77/admiralbob77_-_The_Remixin_Blues_2.mp3", "displayName": "The lunatics - Drive my car", "type": "audio/mpeg" },
-          {"id": "3","image": "dist/images/songs/song3.jpg", "url": "http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3", "displayName": "The lunatics - Loser", "type": "audio/mpeg" },
-          {"id": "4","image": "dist/images/songs/song4.jpg", "url": "http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3", "displayName": "The lunatics - All my loving", "type": "audio/mpeg" },
-          {"id": "5","image": "dist/images/songs/song5.jpg", "url": "http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3", "displayName": "The lunatics - Taxman", "type": "audio/mpeg" },
-          {"id": "6","image": "dist/images/songs/song6.jpg", "url": "http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3", "displayName": "The lunatics - Tonight we do", "type": "audio/mpeg" },
-          {"id": "7","image": "dist/images/songs/song7.jpg", "url": "http://ccmixter.org/content/admiralbob77/admiralbob77_-_The_Remixin_Blues_2.mp3", "displayName": "The lunatics - Revolver", "type": "audio/mpeg" }
+          {"id": "14","image": "dist/images/songs/song1.jpg", "url": "http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3", "displayName": "The lunatics - Come Together", "type": "audio/mpeg" },
+          {"id": "15","image": "dist/images/songs/song2.jpg", "url": "http://ccmixter.org/content/admiralbob77/admiralbob77_-_The_Remixin_Blues_2.mp3", "displayName": "The lunatics - Drive my car", "type": "audio/mpeg" },
+          {"id": "16","image": "dist/images/songs/song3.jpg", "url": "http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3", "displayName": "The lunatics - Loser", "type": "audio/mpeg" },
+          {"id": "17","image": "dist/images/songs/song4.jpg", "url": "http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3", "displayName": "The lunatics - All my loving", "type": "audio/mpeg" },
+          {"id": "18","image": "dist/images/songs/song5.jpg", "url": "http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3", "displayName": "The lunatics - Taxman", "type": "audio/mpeg" },
+          {"id": "19","image": "dist/images/songs/song6.jpg", "url": "http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3", "displayName": "The lunatics - Tonight we do", "type": "audio/mpeg" },
+          {"id": "20","image": "dist/images/songs/song7.jpg", "url": "http://ccmixter.org/content/admiralbob77/admiralbob77_-_The_Remixin_Blues_2.mp3", "displayName": "The lunatics - Revolver", "type": "audio/mpeg" }
         ]
       },
       {
@@ -63,14 +63,14 @@
         "album_image":"dist/images/albums/album4.jpg",
         "album_release":"August 2001",
         "songs": [
-          {"id": "1","image": "dist/images/songs/song20.jpg", "url": "http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3", "displayName": "La fiesta negra - Laetha", "type": "audio/mpeg" },
-          {"id": "1","image": "dist/images/songs/song19.jpg", "url": "http://ccmixter.org/content/admiralbob77/admiralbob77_-_The_Remixin_Blues_2.mp3", "displayName": "La fiesta negra - Only if", "type": "audio/mpeg" },
-          {"id": "1","image": "dist/images/songs/song18.jpg", "url": "http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3", "displayName": "La fiesta negra - Trains over fall", "type": "audio/mpeg" },
-          {"id": "1","image": "dist/images/songs/song17.jpg", "url": "http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3", "displayName": "La fiesta negra - Nothing else", "type": "audio/mpeg" },
-          {"id": "1","image": "dist/images/songs/song16.jpg", "url": "http://ccmixter.org/content/admiralbob77/admiralbob77_-_The_Remixin_Blues_2.mp3", "displayName": "La fiesta negra - Tonight we are", "type": "audio/mpeg" },
-          {"id": "1","image": "dist/images/songs/song15.jpg", "url": "http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3", "displayName": "La fiesta negra - In the night", "type": "audio/mpeg" },
-          {"id": "1","image": "dist/images/songs/song14.jpg", "url": "http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3", "displayName": "La fiesta negra - Nothing else", "type": "audio/mpeg" },
-          {"id": "1","image": "dist/images/songs/song13.jpg", "url": "http://ccmixter.org/content/admiralbob77/admiralbob77_-_The_Remixin_Blues_2.mp3", "displayName": "La fiesta negra - The truth", "type": "audio/mpeg" }
+          {"id": "21","image": "dist/images/songs/song20.jpg", "url": "http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3", "displayName": "La fiesta negra - Laetha", "type": "audio/mpeg" },
+          {"id": "22","image": "dist/images/songs/song19.jpg", "url": "http://ccmixter.org/content/admiralbob77/admiralbob77_-_The_Remixin_Blues_2.mp3", "displayName": "La fiesta negra - Only if", "type": "audio/mpeg" },
+          {"id": "23","image": "dist/images/songs/song18.jpg", "url": "http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3", "displayName": "La fiesta negra - Trains over fall", "type": "audio/mpeg" },
+          {"id": "24","image": "dist/images/songs/song17.jpg", "url": "http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3", "displayName": "La fiesta negra - Nothing else", "type": "audio/mpeg" },
+          {"id": "25","image": "dist/images/songs/song16.jpg", "url": "http://ccmixter.org/content/admiralbob77/admiralbob77_-_The_Remixin_Blues_2.mp3", "displayName": "La fiesta negra - Tonight we are", "type": "audio/mpeg" },
+          {"id": "26","image": "dist/images/songs/song15.jpg", "url": "http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3", "displayName": "La fiesta negra - In the night", "type": "audio/mpeg" },
+          {"id": "27","image": "dist/images/songs/song14.jpg", "url": "http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3", "displayName": "La fiesta negra - Nothing else", "type": "audio/mpeg" },
+          {"id": "28","image": "dist/images/songs/song13.jpg", "url": "http://ccmixter.org/content/admiralbob77/admiralbob77_-_The_Remixin_Blues_2.mp3", "displayName": "La fiesta negra - The truth", "type": "audio/mpeg" }
         ]
       }
     ]
@@ -88,14 +88,14 @@
         "album_image":"dist/images/albums/album5.jpg",
         "album_release":"April 2012",
         "songs": [
-          {"id": "1","image": "dist/images/songs/song1.jpg", "url": "http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3", "displayName": "The lunatics - Come Together", "type": "audio/mpeg" },
-          {"id": "1","image": "dist/images/songs/song2.jpg", "url": "http://ccmixter.org/content/admiralbob77/admiralbob77_-_The_Remixin_Blues_2.mp3", "displayName": "The lunatics - Drive my car", "type": "audio/mpeg" },
-          {"id": "1","image": "dist/images/songs/song3.jpg", "url": "http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3", "displayName": "The lunatics - Loser", "type": "audio/mpeg" },
-          {"id": "1","image": "dist/images/songs/song4.jpg", "url": "http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3", "displayName": "The lunatics - All my loving", "type": "audio/mpeg" },
-          {"id": "1","image": "dist/images/songs/song5.jpg", "url": "http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3", "displayName": "The lunatics - Taxman", "type": "audio/mpeg" },
-          {"id": "1","image": "dist/images/songs/song6.jpg", "url": "http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3", "displayName": "The lunatics - Tonight we do", "type": "audio/mpeg" },
-          {"id": "1","image": "dist/images/songs/song7.jpg", "url": "http://ccmixter.org/content/admiralbob77/admiralbob77_-_The_Remixin_Blues_2.mp3", "displayName": "The lunatics - Revolver", "type": "audio/mpeg" },
-          {"id": "1","image": "dist/images/songs/song8.jpg", "url": "http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3", "displayName": "The lunatics - Here comes the sun", "type": "audio/mpeg" }
+          {"id": "29","image": "dist/images/songs/song1.jpg", "url": "http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3", "displayName": "The lunatics - Come Together", "type": "audio/mpeg" },
+          {"id": "30","image": "dist/images/songs/song2.jpg", "url": "http://ccmixter.org/content/admiralbob77/admiralbob77_-_The_Remixin_Blues_2.mp3", "displayName": "The lunatics - Drive my car", "type": "audio/mpeg" },
+          {"id": "31","image": "dist/images/songs/song3.jpg", "url": "http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3", "displayName": "The lunatics - Loser", "type": "audio/mpeg" },
+          {"id": "32","image": "dist/images/songs/song4.jpg", "url": "http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3", "displayName": "The lunatics - All my loving", "type": "audio/mpeg" },
+          {"id": "33","image": "dist/images/songs/song5.jpg", "url": "http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3", "displayName": "The lunatics - Taxman", "type": "audio/mpeg" },
+          {"id": "34","image": "dist/images/songs/song6.jpg", "url": "http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3", "displayName": "The lunatics - Tonight we do", "type": "audio/mpeg" },
+          {"id": "35","image": "dist/images/songs/song7.jpg", "url": "http://ccmixter.org/content/admiralbob77/admiralbob77_-_The_Remixin_Blues_2.mp3", "displayName": "The lunatics - Revolver", "type": "audio/mpeg" },
+          {"id": "36","image": "dist/images/songs/song8.jpg", "url": "http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3", "displayName": "The lunatics - Here comes the sun", "type": "audio/mpeg" }
         ]
       },
       {
@@ -103,14 +103,14 @@
         "album_image":"dist/images/albums/album6.jpg",
         "album_release":"June 2000",
         "songs": [
-          {"id": "1","image": "dist/images/songs/song20.jpg", "url": "http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3", "displayName": "La fiesta negra - Laetha", "type": "audio/mpeg" },
-          {"id": "1","image": "dist/images/songs/song19.jpg", "url": "http://ccmixter.org/content/admiralbob77/admiralbob77_-_The_Remixin_Blues_2.mp3", "displayName": "La fiesta negra - Only if", "type": "audio/mpeg" },
-          {"id": "1","image": "dist/images/songs/song18.jpg", "url": "http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3", "displayName": "La fiesta negra - Trains over fall", "type": "audio/mpeg" },
-          {"id": "1","image": "dist/images/songs/song17.jpg", "url": "http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3", "displayName": "La fiesta negra - Nothing else", "type": "audio/mpeg" },
-          {"id": "1","image": "dist/images/songs/song16.jpg", "url": "http://ccmixter.org/content/admiralbob77/admiralbob77_-_The_Remixin_Blues_2.mp3", "displayName": "La fiesta negra - Tonight we are", "type": "audio/mpeg" },
-          {"id": "1","image": "dist/images/songs/song15.jpg", "url": "http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3", "displayName": "La fiesta negra - In the night", "type": "audio/mpeg" },
-          {"id": "1","image": "dist/images/songs/song14.jpg", "url": "http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3", "displayName": "La fiesta negra - Nothing else", "type": "audio/mpeg" },
-          {"id": "1","image": "dist/images/songs/song13.jpg", "url": "http://ccmixter.org/content/admiralbob77/admiralbob77_-_The_Remixin_Blues_2.mp3", "displayName": "La fiesta negra - The truth", "type": "audio/mpeg" }
+          {"id": "37","image": "dist/images/songs/song20.jpg", "url": "http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3", "displayName": "La fiesta negra - Laetha", "type": "audio/mpeg" },
+          {"id": "38","image": "dist/images/songs/song19.jpg", "url": "http://ccmixter.org/content/admiralbob77/admiralbob77_-_The_Remixin_Blues_2.mp3", "displayName": "La fiesta negra - Only if", "type": "audio/mpeg" },
+          {"id": "39","image": "dist/images/songs/song18.jpg", "url": "http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3", "displayName": "La fiesta negra - Trains over fall", "type": "audio/mpeg" },
+          {"id": "40","image": "dist/images/songs/song17.jpg", "url": "http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3", "displayName": "La fiesta negra - Nothing else", "type": "audio/mpeg" },
+          {"id": "41","image": "dist/images/songs/song16.jpg", "url": "http://ccmixter.org/content/admiralbob77/admiralbob77_-_The_Remixin_Blues_2.mp3", "displayName": "La fiesta negra - Tonight we are", "type": "audio/mpeg" },
+          {"id": "42","image": "dist/images/songs/song15.jpg", "url": "http://ccmixter.org/content/unreal_dm/unreal_dm_-_Recycle_This.mp3", "displayName": "La fiesta negra - In the night", "type": "audio/mpeg" },
+          {"id": "43","image": "dist/images/songs/song14.jpg", "url": "http://ccmixter.org/content/snowflake/snowflake_-_I_Miss_You.mp3", "displayName": "La fiesta negra - Nothing else", "type": "audio/mpeg" },
+          {"id": "44","image": "dist/images/songs/song13.jpg", "url": "http://ccmixter.org/content/admiralbob77/admiralbob77_-_The_Remixin_Blues_2.mp3", "displayName": "La fiesta negra - The truth", "type": "audio/mpeg" }
         ]
       }
     ]
