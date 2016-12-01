@@ -6,7 +6,7 @@
     "ngSanitize",
     "ui.bootstrap",
     "ui.router",
-    "mediaPlayer",
+    "angularSoundManager",
     "ngDragDrop",
     'app.directives'
   ]);

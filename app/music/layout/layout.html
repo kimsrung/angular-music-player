@@ -1,5 +1,7 @@
 <div>
-  <audio media-player="mediaPlayer" playlist="generalPlaylist.audioPlaylist"></audio>
+  <!-- <audio media-player="mediaPlayer" playlist="generalPlaylist.audioPlaylist"></audio> -->
+
+  <sound-manager></sound-manager>
 
   <div ng-hide="generalPlaylist.checkIfOwnPage()" ng-cloak="" class="no-print">
     <aside ng-include=" 'app/music/layout/navigation.html' " id="nav-container"></aside>
@@ -13,7 +15,7 @@
     <section ui-view="" id="content" class="animate-fade-up" ng-class="{fixed:generalPlaylist.checkIfFixedPage()}"></section>
   </div>
 
-  <div class="player-region" ng-show="mediaPlayer.currentTrack">
+  <div class="player-region" ng-show="currentPlaying">
     <div>
 
       <div class="player-control">
@@ -24,8 +26,9 @@
             <div class="btn" ng-click="mediaPlayer.prev()">
               <i class="fa fa-step-backward"></i>
             </div>
-            <div class="btn" ng-click="mediaPlayer.playPause()">
-              <i class="fa" ng-class="{ 'fa-pause': mediaPlayer.playing, 'fa-play': !mediaPlayer.playing }"></i>
+            <div class="btn">
+              <i class="fa fa-pause" ng-show="isPlaying" pause-music></i>
+              <i class="fa fa-play" ng-hide="isPlaying" play-music></i>
             </div>
             <div class="btn" ng-click="mediaPlayer.next()">
               <i class="fa fa-step-forward"></i>
@@ -49,8 +52,11 @@
 
           <div class="song-duration">
             <span class="song-duration-beg">{{ mediaPlayer.formatTime }}</span>
-            <div class="progress" ng-click="mediaPlayer.seek(mediaPlayer.duration * generalPlaylist.seekPercentage($event))">
-              <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" ng-style="{ width: mediaPlayer.currentTime*100/mediaPlayer.duration + '%' }"></div>
+            <!-- <div>
+      {{ currentPlaying.title }} by {{ currentPlaying.artist }} ({{ currentPostion }} / {{ currentDuration }})
+    </div> -->
+            <div class="progress" seek-track>
+              <div class="progress-bar" ng-style="{width : ( progress + '%' ) }"></div>
             </div>
             <span class="song-duration-end">{{ mediaPlayer.formatDuration }}</span>
           </div>

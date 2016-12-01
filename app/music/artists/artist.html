@@ -118,8 +118,15 @@
 
                     <div class="music-listing__number">
                       {{ $index+1 }}
-                      <div class="play-button">
-                        <button ng-click="generalPlaylist.addSong(song)" class="btn btn-primary"><i class="fa fa-play-circle"></i></button>
+                      <div class="play-button" music-player="play" add-song="song" >
+                        <button class="btn btn-primary"><i class="fa fa-play-circle"></i></button>
+                      </div>
+
+                      <div class="play-pause-button" ng-show=" currentPlaying.id == song.id">
+                        <button class="btn btn-primary">
+                          <i class="fa fa-pause" ng-show="isPlaying" pause-music></i>
+                          <i class="fa fa-play-circle" ng-hide="isPlaying" play-music></i>
+                        </button>
                       </div>
                     </div>
 

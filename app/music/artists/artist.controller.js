@@ -54,6 +54,7 @@
               var parseTitle = song.displayName.match(/(.*?)\s?-\s?(.*)?$/);
 
               artistPlaylistVar.push({
+                id: song.id,
                 image: song.image,
                 src: song.url,
                 url: song.url,
@@ -66,6 +67,7 @@
               /*Put songs also in this artist ordered by album*/
 
               artistPlaylistAlbums[artistPlaylistAlbums.length - 1].songs.push({
+                id: song.id,
                 image: song.image,
                 src: song.url,
                 url: song.url,
